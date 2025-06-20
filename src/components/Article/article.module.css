@@ -1,0 +1,41 @@
+.content{
+ margin: 48px 0px;
+ padding: 18pt 0pt;
+ position: relative;
+
+ .navButton{
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding: 6px 9px;
+  margin-top: 15px;
+
+  background-color: #00000000;
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 26px;
+
+  cursor: pointer;
+ }
+
+}
+
+@media screen and (max-width: 1024px){
+  
+}
+
+@media screen and (max-width: 720px){
+
+}
+
+@media screen and (max-width: 540px){
+
+}
+
+@media screen and (max-width: 400px){
+
+}

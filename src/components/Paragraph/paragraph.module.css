@@ -1,0 +1,33 @@
+.text{
+ font-family: "Oxanium";
+ font-size: 1.2rem;
+ color: #FFFFFF;
+ padding: 0pt 144pt;
+}
+
+@media screen and (max-width: 1024px){
+ .text{
+  padding: 0pt 72pt;
+ }
+}
+
+@media screen and (max-width: 720px){
+ .text{
+  padding: 0pt 18pt;
+ }
+
+}
+
+@media screen and (max-width: 540px){
+ .text{
+  padding: 0pt 18pt;
+ }
+
+}
+
+@media screen and (max-width: 400px){
+ .text{
+  padding: 0pt 18pt;
+ }
+
+}

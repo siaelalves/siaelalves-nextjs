@@ -1,0 +1,121 @@
+.header{
+ width: 100vw;
+ 
+ display:flex;
+ flex-direction: column;
+ flex-wrap:nowrap;
+ align-items: center;
+ gap: 16pt;
+
+ margin: 48px 0px;
+
+ position: relative;
+
+ background: #31d4cc;
+ background-color: #252525;
+ 
+
+ .title {
+  width:75vw;
+  
+  .name {
+   font-family: Kanit;
+   color: white;
+   font-weight: lighter;
+   font-size: 4rem;
+   margin: 0;
+
+  }
+
+ }
+
+ .line{
+  width:75vw;
+  height:1px;
+  background-color: #FFFFFF;
+ }
+
+ .background{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+ }
+
+ .info{
+  width:75vw;
+  text-align: center;
+  font-family: "Kanit";
+  font-size:2rem;
+  color: #FFFFFF;
+  justify-self: center;
+ }
+
+ .buttonLine{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  row-gap: 4pt;
+ }
+
+}
+
+@media screen and (max-width: 1024px){
+  .header{
+
+  .title{
+   .name{
+    font-size:3rem;
+   }
+  }
+  .info{
+   font-size:2rem;
+  }
+ }
+}
+
+@media screen and (max-width: 720px){
+ .header{
+  .title{
+   .name{
+    font-size:2.7rem;
+   }
+  }
+  .info{
+   font-size:2rem;
+  }
+ }
+}
+
+@media screen and (max-width: 540px){
+  .header{
+  .title{
+   .name{
+    font-size:2rem;
+   }
+  }
+  .info{
+   font-size:1.6rem;
+  }
+ }
+}
+
+@media screen and (max-width: 400px){
+ .header{
+  .info{
+   font-size:1.3rem;
+  }
+
+  .onBuild{
+   font-size:2.1rem;
+  }
+
+  .buttonLine{
+   flex-direction: column;
+   row-gap: 8pt;
+  }
+ }
+}

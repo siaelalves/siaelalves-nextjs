@@ -1,0 +1,10 @@
+ .onBuild{
+  width:100%;
+  text-align: center;
+  font-family: "Oxanium";
+  font-size:3rem;
+  color: #252525;
+  justify-self: center;
+  
+  animation: "fade-out" 0.5s ease infinite alternate-reverse;
+ }

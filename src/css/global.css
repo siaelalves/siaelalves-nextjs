@@ -1,0 +1,146 @@
+@font-face {
+ font-family: "Kanit";
+ src: url("../fonts/Kanit/Kanit-Regular.ttf");
+}
+@font-face {
+ font-family: "Kanit";
+ src: url("../fonts/Kanit/Kanit-Light.ttf");
+ font-weight: lighter;
+}
+@font-face {
+ font-family: "Oxanium";
+ src: url("../fonts/Oxanium/Oxanium.ttf");
+}
+/* Alternativas */
+@font-face {
+ font-family: "Iceland";
+ src: url("../fonts/iceland/iceland-regular.ttf");
+}
+@font-face {
+ font-family: "Electrolize";
+ src: url("../fonts/electrolize/electrolize-regular.ttf");
+}
+@font-face {
+ font-family: "Orbitron";
+ src: url("../fonts/Orbitron/Orbitron.ttf");
+}
+@font-face {
+ font-family: "Pixelify";
+ src: url("../fonts/Pixelify/Pixelify.ttf");
+}
+@font-face {
+ font-family: "Siael Social";
+ src: url("../fonts/siael-social/siael-social.woff");
+}
+[class^="social"], [class*=" social"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Siael Social' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.socialemail-icon:before {
+  content: "\e900";
+  color: #fff;
+}
+.socialinstagram-icon:before {
+  content: "\e901";
+  color: #fff;
+}
+.socialwhatsapp-icon:before {
+  content: "\e902";
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'Interface Arrows';
+  src:  url('../fonts/arrows/Interface-Arrows.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="arrows-"], [class*=" arrows-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Interface Arrows' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.arrows-arrow-up-left2:before {
+  content: "\ea39";
+}
+.arrows-arrow-up2:before {
+  content: "\ea3a";
+}
+.arrows-arrow-up-right2:before {
+  content: "\ea3b";
+}
+.arrows-arrow-right2:before {
+  content: "\ea3c";
+}
+.arrows-arrow-down-right2:before {
+  content: "\ea3d";
+}
+.arrows-arrow-down2:before {
+  content: "\ea3e";
+}
+.arrows-arrow-down-left2:before {
+  content: "\ea3f";
+}
+.arrows-arrow-left2:before {
+  content: "\ea40";
+}
+.arrows-circle-up:before {
+  content: "\ea41";
+}
+.arrows-circle-right:before {
+  content: "\ea42";
+}
+.arrows-circle-down:before {
+  content: "\ea43";
+}
+.arrows-circle-left:before {
+  content: "\ea44";
+}
+
+
+
+
+body{
+ margin:0;
+ max-height: 100%;
+ background-color: #252525;
+}
+a{
+ font-family: "Kanit";
+}
+header, section{
+ padding:5vh 0vh;
+}
+a{
+ text-decoration: none;
+ color:inherit;
+}
+
+@keyframes fade-out {
+ 0%{opacity: 1;}
+ 100%{opacity: 0;}
+}
+@keyframes pulse {
+ 0%{transform: scale(1.05);}
+ 100%{transform: scale(0.95);}
+}

@@ -1,0 +1,15 @@
+.contact{
+ max-width: 333px;
+
+ font-family: "Kanit";
+ font-size: 2rem;
+ font-weight:normal;
+ color: #FFFFFF;
+ padding: 4pt 24pt;
+ justify-self: center;
+ 
+ background-color: #00000000;
+ border-width: 1px;
+ border-color: #FFFFFF;
+ border-style: solid;
+}

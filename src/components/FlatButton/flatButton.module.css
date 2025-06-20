@@ -1,0 +1,46 @@
+.primary, .secondary, .terciary{
+ cursor: pointer;
+}
+
+.primary{
+ font-family: "Kanit";
+ font-size: 1.5rem;
+ padding: 8px 32px;
+
+ border-width: 1px;
+ border-style:solid;
+ border-radius: 4px;
+}
+
+.secondary{
+ font-family: "Oxanium";
+ font-size: 1.3rem;
+ padding: 4px 24px;
+
+ border-width: 1px;
+ border-style:solid;
+ border-radius: 24px;
+}
+
+.terciary{
+ font-family: "Oxanium";
+ font-size: 1.3rem;
+ padding: 4px 24px;
+ text-decoration: underline;
+
+ color: #FFFFFF !important;
+ border: none !important;
+ background-color: #00000000 !important;
+}
+
+.dark{
+ color: #FFFFFF;
+ background-color: #252525;
+ border-color: #252525;
+}
+
+.light{
+ color: #252525;
+ background-color: #e7e4de;
+ border-color: #FFFFFF;
+}

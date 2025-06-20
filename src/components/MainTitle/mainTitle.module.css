@@ -1,0 +1,60 @@
+.title{ 
+ font-family: "Oxanium";
+ font-size: 4rem;
+ font-weight: lighter;
+ color: #FFFFFF;
+ margin:0;
+
+ .line{
+  display:block;
+
+  &.second{
+   text-indent: 120pt;
+  }
+
+ }
+
+}
+@media screen and (max-width: 1024px){
+ 
+  .title{
+   font-size:3.2rem;   
+
+   .line{
+    &.second{
+     text-indent: 60pt;
+    }
+   }
+  }
+ 
+}
+
+@media screen and (max-width: 720px){
+ .title{
+  font-size:3.2rem;   
+
+  .line{
+   &.second{
+    text-indent: 60pt;
+   }
+  }
+ }
+}
+
+@media screen and (max-width: 540px){
+ .title{
+  font-size:2.7rem;
+ } 
+}
+
+@media screen and (max-width: 400px){
+ .title{
+  font-size:2rem;
+
+  .line{
+   &.second{
+    text-indent: 25pt;
+   }
+  }
+ } 
+}

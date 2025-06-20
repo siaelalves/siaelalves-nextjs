@@ -1,0 +1,33 @@
+.imageList{
+ width: calc(100% - 10vh);
+ padding: 5vh;
+
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ column-gap: 8pt;
+ row-gap: 40pt;
+ justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+ 
+}
+
+@media screen and (max-width: 720px){
+
+}
+
+@media screen and (max-width: 540px){
+ .imageList{
+  width: calc(100% - 4vh);
+  padding: 2vh;
+ }
+}
+
+@media screen and (max-width: 400px){
+ .imageList{
+  width: calc(100% - 6vh);
+  padding: 3vh;
+ }
+}
