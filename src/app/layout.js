@@ -21,6 +21,9 @@ export const metadata = {
   thumbnail: "",
   url: "https://siaelalves.com.br",
   metadataBase: new URL('https://siaelalves.com.br'),
+  icons: {
+   icon: "favicon.svg"
+  },
   alternates: {
    canonical: ""
   },
