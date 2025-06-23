@@ -18,6 +18,9 @@ export const metadata = {
  thumbnail: "",
  url: "https://siaelalves.com.br/artigos/conheca-os-diferentes-tipos-de-site",
  metadataBase: new URL('https://siaelalves.com.br'),
+ icons: {
+  icon: "favicon.svg"
+ },
  alternates: {
   canonical: "https://siaelalves.com.br/artigos/conheca-os-diferentes-tipos-de-site"
  },
