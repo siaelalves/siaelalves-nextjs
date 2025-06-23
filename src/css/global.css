@@ -30,11 +30,13 @@
 }
 @font-face {
  font-family: "Siael Social";
- src: url("../fonts/siael-social/siael-social.woff");
+ src: url("../fonts/siael-social/siael-social.ttf");
 }
+
 [class^="social"], [class*=" social"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Siael Social' !important;
+  src:  url('../fonts/siael-social/siael-social.ttf');
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -45,6 +47,9 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.socialwhatsapp-icon-dark:before {
+  content: "\e903";
 }
 .socialemail-icon:before {
   content: "\e900";
