@@ -72,7 +72,7 @@ export default function Page() {
     <Paragraph text="E então? Qual desses sites é o que você precisa? Entre em contato pelo botão abaixo e 
     converse comigo para criarmos um site de acordo com suas necessidades"/>
     <div className={style.buttonLine}>
-     <FlatButton label={"Quero um Site"} path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
+     <FlatButton label={"Quero um Site"} icon="socialwhatsapp-icon-dark" path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
     </div>
    </article>
   </>

@@ -67,7 +67,7 @@ export default function Page() {
    <Paragraph text="Com esses 3 princípios sempre em mente, quero firmar com você um acordo sólido e 
    confiável, com o único objetivo de trazer à vida o website com o qual você tanto sonha!"/>
    <div className={style.buttonLine}>
-    <FlatButton label={"Quero um Site"} path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
+    <FlatButton label={"Quero um Site"} icon="socialwhatsapp-icon-dark" path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
     {/* <FlatButton label={"Conheça alguns dos meus trabalhos"} path={"/meus-trabalhos"} title={"Ir para página Meus Trabalhos"} type="terciary"/> */}
    </div>
    </article>
