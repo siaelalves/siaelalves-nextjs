@@ -12,7 +12,7 @@ export default function Header() {
    <div className={style.line}></div>
    <div className={style.info}>Sites Institucionais, Landing Pages, Blogs e Catálogos On-line</div>
    <div className={style.buttonLine}>
-    <FlatButton type={"primary"} label={"Saiba Mais"} path={"/quem-sou-eu"} title="Ir para próxima página"/>
+    <FlatButton type={"primary"} label={"Conheça meu trabalho"} path={"/quem-sou-eu"} title="Ir para próxima página"/>
     <FlatButton type={"terciary"} label={"Que site devo escolher"} path={"/artigos/conheca-os-diferentes-tipos-de-site"} title="Ler artigo Conheça os diferentes tipos de site"/>
    </div>
    
