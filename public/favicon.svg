@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="2158.7036"
-   height="1839.871"
-   viewBox="0 0 571.15698 486.79919"
+   width="64.000023"
+   height="63.999992"
+   viewBox="0 0 16.93334 16.933331"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="logo-siael-alves-branco-fundo-escuro.svg"
+   sodipodi:docname="favicon.svg"
    inkscape:export-filename="logo-siael-alves-branco-fundo-escuro.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -28,24 +28,34 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="false"
-     inkscape:zoom="0.20935045"
-     inkscape:cx="1041.3161"
-     inkscape:cy="816.81219"
+     inkscape:zoom="6.6992144"
+     inkscape:cx="32.541129"
+     inkscape:cy="32.541129"
      inkscape:window-width="1366"
      inkscape:window-height="699"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="text3385">
+     inkscape:current-layer="g3566">
     <sodipodi:guide
-       position="285.5783,243.39941"
+       position="285.57853,-226.46636"
        orientation="1,0"
        id="guide1583"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="285.5783,243.39941"
+       position="285.57853,-226.46636"
        orientation="0,-1"
        id="guide1585"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="8.4666694,16.933331"
+       orientation="1,0"
+       id="guide3146"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="16.93334,8.466665"
+       orientation="0,-1"
+       id="guide3148"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -54,7 +64,7 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(43.193372,-10.026216)">
+     transform="translate(43.1936,-10.026309)">
     <g
        id="g3561"
        transform="matrix(8.4600708,0,0,8.5540325,-664.04796,-557.90956)"
@@ -63,32 +73,16 @@
          id="g3566">
         <path
            id="rect295"
-           style="fill:#252525;stroke-width:3.98106"
-           d="M 73.386429,66.393944 H 140.89851 V 123.30268 H 73.386429 Z" />
-        <g
-           aria-label="S"
-           id="text3385"
-           style="font-weight:bold;font-size:35.5912px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.10784;stroke-dasharray:none;stroke-opacity:1"
-           transform="matrix(0.599913,0,0,0.55461302,44.151479,43.076672)">
-          <g
-             aria-label="S"
-             transform="scale(1.034929,0.96624989)"
-             id="text1710"
-             style="font-size:36.7048px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';stroke:#ffffff;stroke-width:1.0784;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.101896, 0.101896">
-            <path
-               d="m 92.574001,111.31424 v -2.86297 h 11.378489 q 1.10114,0 1.10114,-1.10115 v -2.64274 q 0,-1.06444 -0.91762,-1.21126 l -7.157433,-1.46819 q -4.404576,-0.88092 -4.404576,-5.909474 v -2.055469 q 0,-6.166406 6.166407,-6.166406 h 8.405402 l 2.45922,1.90865 v 2.862974 H 98.960637 q -1.101144,0 -1.101144,1.101144 v 2.385812 q 0,1.027734 0.91762,1.211258 l 7.157437,1.431487 q 4.40457,0.880916 4.40457,5.909474 v 2.34911 q 0,6.1664 -6.1664,6.1664 h -9.139497 z"
-               style="font-family:Oxanium;-inkscape-font-specification:'Oxanium Bold'"
-               id="path1776" />
-          </g>
-        </g>
+           style="fill:#252525;stroke-width:0.0311021;stroke-dasharray:none"
+           d="m 73.386426,66.393934 h 2.00156 v 1.979573 h -2.00156 z" />
         <g
            aria-label="A"
-           transform="matrix(1.2165338,0,0,1.0009117,8.6963809,17.242374)"
+           transform="matrix(0.03606709,0,0,0.02899417,71.468537,65.135651)"
            id="text1215"
-           style="font-weight:bold;font-size:24.0952px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:none;stroke:#ffffff;stroke-width:2.18158;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.0532643, 0.0532643">
+           style="font-weight:bold;font-size:24.0952px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:none;stroke:#ffffff;stroke-width:1.92357;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none">
           <path
              d="m 74.825619,88.750914 -1.630928,5.365327 H 62.276572 L 80.924815,60.954227 99.573058,94.116241 H 89.473672 l -1.630927,-5.365327"
-             style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';stroke-width:2.81858"
+             style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';stroke-width:1.92357;stroke-dasharray:none"
              id="path1529"
              sodipodi:nodetypes="ccccccc" />
         </g>
