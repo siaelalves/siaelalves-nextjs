@@ -92,13 +92,17 @@
 
 @media screen and (max-width: 540px){
   .header{
-  .title{
-   .name{
-    font-size:2rem;
+   .title{
+    .name{
+     font-size:2rem;
+    }
    }
-  }
   .info{
    font-size:1.6rem;
+  }
+  .buttonLine{
+   flex-direction: column;
+   row-gap: 8pt;
   }
  }
 }
@@ -111,11 +115,6 @@
 
   .onBuild{
    font-size:2.1rem;
-  }
-
-  .buttonLine{
-   flex-direction: column;
-   row-gap: 8pt;
   }
  }
 }
