@@ -76,6 +76,7 @@ export default function Page() {
     converse comigo para criarmos um site de acordo com suas necessidades"/>
     <div className={style.buttonLine}>
      <FlatButton label={"Quero um Site"} icon="socialwhatsapp-icon-dark" path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
+     <FlatButton label={"Outras dúvidas"} icon="" path={"/artigos"} title={"Ver lista de artigos"} type="terciary"/>
     </div>
    </article>
   </>
