@@ -137,8 +137,12 @@ header, section{
  padding:5vh 0vh;
 }
 a{
- text-decoration: none;
+ text-decoration:none;
  color:inherit;
+
+ &.link{
+  text-decoration: underline !important;
+ }
 }
 
 @keyframes fade-out {
