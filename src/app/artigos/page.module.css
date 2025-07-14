@@ -1,0 +1,13 @@
+.content{
+ margin: 48px 0px;
+ padding: 18pt 0pt;
+ position: relative;
+}
+
+.buttonLine{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ row-gap: 4pt;
+}
