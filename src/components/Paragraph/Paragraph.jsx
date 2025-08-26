@@ -1,10 +1,10 @@
 import { Children } from 'react'
 import style from './paragraph.module.css'
 
-export default function Paragraph({text=""}) {
+export default function Paragraph({text="", children}) {
  return (
   <>
-   <p className={style.text}>{text}</p>
+   <p className={style.text}>{(text) ? (text) : (children)}</p>
   </>
  )
 }
