@@ -19,13 +19,13 @@ export const metadata = {
  author: "Siael Alves",
  creator: "Siael Alves",
  thumbnail: "",
- url: "https://siaelalves.com.br/artigos/como-funcionam-os-planos-de-hospedagem",
+ url: "https://siaelalves.com.br/duvidas/como-funcionam-os-planos-de-hospedagem",
  metadataBase: new URL('https://siaelalves.com.br'),
  icons: {
   icon: "favicon.svg"
  },
  alternates: {
-  canonical: "https://siaelalves.com.br/artigos/como-funcionam-os-planos-de-hospedagem"
+  canonical: "https://siaelalves.com.br/duvidas/como-funcionam-os-planos-de-hospedagem"
  },
  openGraph: {
   title: "Como funcionam os planos de hospedagem - Siael Alves",
@@ -92,7 +92,7 @@ export default function Page() {
 
     {/* <ListItem items={
      [
-      <Link className="link" href="/artigos/como-colocar-seu-site-online">Como colocar seu site on-line</Link>
+      <Link className="link" href="/duvidas/como-colocar-seu-site-online">Como colocar seu site on-line</Link>
      ]
     }/> */}
 
@@ -100,7 +100,7 @@ export default function Page() {
 
     <div className={style.buttonLine}>
      <FlatButton label={"Quero um Site"} icon="socialwhatsapp-icon-dark" path={WhatsAppLink} title={"Entrar em contato pelo WhatsApp"} type="primary"/>
-     <FlatButton label={"Outras dúvidas"} icon="" path={"/artigos"} title={"Ver lista de artigos"} type="terciary"/>
+     <FlatButton label={"Outras dúvidas"} icon="" path={"/duvidas"} title={"Ver lista de artigos"} type="terciary"/>
     </div>
    </article>
   </>

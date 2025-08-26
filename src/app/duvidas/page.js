@@ -7,24 +7,24 @@ import ListItem from "@/components/ListItem/ListItem";
 import FlatButton from "@/components/FlatButton/FlatButton";
 
 export const metadata = {
- title: "Artigos - Siael Alves",
+ title: "Dúvidas Comuns - Siael Alves",
  description: "Tire aqui as suas dúvidas sobre o processo de criação de sites, como funcionamento de hospedagem, compra de domínio, tipos de site e outras coisas",
  author: "Siael Alves",
  creator: "Siael Alves",
  thumbnail: "",
- url: "https://siaelalves.com.br/artigos",
+ url: "https://siaelalves.com.br/duvidas",
  metadataBase: new URL('https://siaelalves.com.br'),
  icons: {
   icon: "favicon.svg"
  },
  alternates: {
-  canonical: "https://siaelalves.com.br/artigos"
+  canonical: "https://siaelalves.com.br/duvidas"
  },
  openGraph: {
-  title: "Artigos - Siael Alves",
+  title: "Dúvidas Comuns - Siael Alves",
   description: "Tire aqui as suas dúvidas sobre o processo de criação de sites, como funcionamento de hospedagem, compra de domínio, tipos de site e outras coisas",
   type: 'website',
-  publishedTime: '2025-07-14T14:15:00.000Z',
+  publishedTime: '2025-08-26T17:03:00.000Z',
   authors: ["Siael Alves"],
  }
 };
@@ -42,8 +42,8 @@ export default function Articles({children}) {
 
     <ListItem items={
      [
-      <Link className="link" href="/artigos/como-funcionam-os-planos-de-hospedagem">Como funcionam os planos de hospedagem</Link>,
-      <Link className="link" href="/artigos/conheca-os-diferentes-tipos-de-site">Conheça os diferentes tipos de site</Link>
+      <Link className="link" href="/duvidas/como-funcionam-os-planos-de-hospedagem">Como funcionam os planos de hospedagem</Link>,
+      <Link className="link" href="/duvidas/conheca-os-diferentes-tipos-de-site">Conheça os diferentes tipos de site</Link>
      ]
     }/>
 
