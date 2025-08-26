@@ -35,7 +35,7 @@ export default function Articles({children}) {
  return(
   <>
    <article className={style.content}>
-    <Title title="Lista de artigos"/>
+    <Title title="Dúvidas comuns"/>
 
     <Paragraph text="Veja abaixo uma lista de artigos que responderão suas dúvidas antes de começar a criar 
     seu website:"/>
