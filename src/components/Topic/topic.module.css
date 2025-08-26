@@ -1,0 +1,35 @@
+.topic{
+ font-family: "Kanit";
+ font-weight: bold;
+ font-size: 1.8rem;
+ text-align: left;
+ color: #FFFFFF;
+ margin: 0;
+ padding: 0 144pt;
+}
+
+@media screen and (max-width: 1024px){
+ .topic{
+  padding: 0pt 72pt;
+ }
+}
+
+@media screen and (max-width: 720px){
+ .topic{
+  padding: 0pt 18pt;
+ }
+}
+
+@media screen and (max-width: 540px){
+ .topic{
+  font-size: 1.8rem;
+  padding: 0 18pt;
+ }
+}
+
+@media screen and (max-width: 400px){
+ .topic{
+  font-size: 1.8rem;
+  padding: 0 18pt;
+ }
+}
