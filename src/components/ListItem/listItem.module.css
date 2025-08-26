@@ -1,10 +1,12 @@
 .list{
+ margin: 24px 0px;
  padding: 0pt 144pt;
  
  .item{
   font-family: "Oxanium";
   font-size: 1.2rem;
-  color: #FFFFFF;  
+  color: #FFFFFF; 
+  margin-bottom: 12px;
  }
 
 }
