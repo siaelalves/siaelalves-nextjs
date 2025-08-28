@@ -12,6 +12,7 @@ import Metadata from "../../../components/Metadata/Metadata"
 import Topic from "@/components/Topic/Topic"
 import ListItem from "@/components/ListItem/ListItem"
 import Link from "next/link"
+import Schema from "@/components/Schema/Schema"
 
 export const metadata = {
  title: "Como funcionam os planos de hospedagem - Siael Alves",
@@ -39,8 +40,34 @@ export const metadata = {
 export default function Page() {
  const WhatsAppLink = "https://api.whatsapp.com/send?phone=5532991223016&text=Ol%C3%A1%21%20Preciso%20conversar%20com%20voc%C3%AA%20sobre%20meu%20novo%20site%21"
 
+ const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://siaelalves.com.br/duvidas/como-funcionam-os-planos-de-hospedagem"
+  },
+  headline: "Entenda melhor como os planos de hospedagem funcionam e calcule o custo do seu site antes de criá-lo!",
+  image: "",
+  author: {
+    "@type": "Person",
+    name: "Siael Alves",
+    url: "https://siaelalves.com.br"
+  },  
+  publisher: {
+    "@type": "Organization",
+    name: "Siael Alves",
+    logo: {
+      "@type": "ImageObject",
+      url: ""
+    }
+  },
+  datePublished: "2025-08-26"
+ }
+
  return (
   <>
+   <Schema data={schema}/>
    <article className={style.content}>
     <Title title={"Como funcionam os planos de hospedagem"}/>
     <Paragraph text="Se você chegou aqui é porque já tem certeza de que quer um site para a sua empresa. Para ajudar 
