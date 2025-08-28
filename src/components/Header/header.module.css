@@ -107,6 +107,23 @@
  }
 }
 
+@media screen and (max-width: 469px){
+  .header{
+   .title{
+    .name{
+     font-size:1.8rem;
+    }
+   }
+  .info{
+   font-size:1.4rem;
+  }
+  .buttonLine{
+   flex-direction: column;
+   row-gap: 8pt;
+  }
+ }
+}
+
 @media screen and (max-width: 400px){
  .header{
   .info{

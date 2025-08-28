@@ -79,7 +79,7 @@
 @media screen and (max-width: 1024px){
 
  .pageNav{
-  grid-template-columns: 1fr 1fr 1fr 12fr;
+  grid-template-columns: 2fr 2fr 2fr 12fr;
  }
 
 }
@@ -87,14 +87,14 @@
 @media screen and (max-width: 720px){
  
  .pageNav{
-  grid-template-columns: 1fr 1fr 1fr 9fr;
+  grid-template-columns: 2fr 2fr 2fr 9fr;
  }
 
 }
 
 @media screen and (max-width: 540px){
  .pageNav{
-  grid-template-columns: 1fr 1fr 1fr 6fr;
+  grid-template-columns: 2fr 2fr 2fr 6fr;
 
   .info{
    width:100%;
@@ -103,9 +103,14 @@
  }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 469px){
  .pageNav{
-  grid-template-columns: 1fr 1fr 1fr 3fr;
+  grid-template-columns: 2fr 2fr 2fr;
+ }
+}
+
+@media screen and (max-width: 400px){
+ .pageNav{  
 
   .info{
    font-size:1.8rem;

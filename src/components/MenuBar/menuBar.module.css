@@ -93,6 +93,12 @@
  }
 }
 
+@media screen and (max-width: 469px) {
+ .menuBar{
+  grid-template-columns: 1fr 1fr 1fr 4fr;
+ }
+}
+
 @media screen and (max-width: 400px){
  .menuBar{
   grid-template-columns: 1fr 1fr 1fr 3fr;
